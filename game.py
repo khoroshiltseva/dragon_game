@@ -26,11 +26,11 @@ def checkCave(chooseCave):
     else:
         print("Огромный дракон преградил вам путь. Не тратя лишних слов на дискуссии, он сразу приступает к обеду.")
         time.sleep(2)
-        print("Сегодня в пещере появится несколько новых костей… Ваших.")
+        print("Сегодня в пещере появится несколько новых костей… наверное, Ваших.")
 playAgain = "yes"
 while playAgain == "yes" or playAgain == "y":
     displayIntro()
     caveNumber = chooseCave()
     checkCave(caveNumber)
-    print("Хотите попробовать еще разок? (yes или no)")
+    print("Хотите поиграть еще? (yes или no)")
     playAgain = input()
